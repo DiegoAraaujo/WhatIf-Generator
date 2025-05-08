@@ -1,6 +1,6 @@
 import "./passwordOptions.css";
 
-function passwordOptions() {
-  return <input type="number" className="password-option-input" />;
+function passwordOptions(props) {
+  return <input type="number" className="password-option-input" id={props.id}/>;
 }
 export default passwordOptions;

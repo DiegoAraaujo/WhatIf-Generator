@@ -1,7 +1,8 @@
-import PasswordLengthSuggestion from "./PasswordLengthSuggestion"
-import PasswordOptions from "./PasswordOptions"
-import PasswordDisplay from "./PasswordDisplay"
-import Button from "./button"
+import PasswordLengthSuggestion from "../components/PasswordLengthSuggestion"
+import PasswordOptions from "../components/PasswordOptions"
+import PasswordDisplay from "../components/PasswordDisplay"
+import PasswordConfigForm from "../components/PasswordConfigForm"
+import Button from "../components/button"
 import "./passwordStepOne.css"
 function passwordStepOne(){
  return(
@@ -16,9 +17,9 @@ function passwordStepOne(){
         <PasswordLengthSuggestion length={12}/>
       </div>
         <PasswordOptions/>
-        <Button message={"Gerar senha"}/>
+        <PasswordConfigForm/>
         <PasswordDisplay/>
-        <Button message={"Personalizar senha"}/>
+        <Button message={"Gerar senha"}/>
         
     </main>
  )
