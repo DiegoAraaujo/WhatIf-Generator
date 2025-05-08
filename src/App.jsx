@@ -1,10 +1,10 @@
 import "./App.css";
-import PasswordLengthSuggestion from "./components/PasswordLengthSuggestion";
+import PasswordStepOne from "./components/PasswordStepOne";
 
 function App() {
   return (
     <>
-      <PasswordLengthSuggestion length={2} />
+      <PasswordStepOne/>
     </>
   );
 }
